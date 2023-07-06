@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding: 0 calc(50% - 586px);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.header__logo {
+    display: flex;
+}
+
+.header__title {
+    padding-left: 14px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.header__link {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal; 
+}
+
+.header__link:hover {
+    color: #F25822;
+}
+
+.top {
+    margin-top: 83px;
+    margin-bottom: 162px;
+    display: flex;
+    gap: 40px;
+}
+
+.top__title {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    line-height: normal; 
+}
+
+.top__desc {
+    margin-top: 17px;
+    margin-bottom: 37px;
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal; 
+}
+
+.btn__start {
+    padding: 15px 36px;
+    margin-right: 58px;
+    color: #fff;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal; 
+}
+
+.btn__watch {
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal; 
+}
+
+.btn__watch:hover {
+    color: #F25822;
+}
+
+.top__img {
+    padding-right: 64px;
+}
+
+.partners {
+    display: flex;
+    gap: 48px;
+    margin-top: 97px;
+    margin-bottom: 96px;
+}
