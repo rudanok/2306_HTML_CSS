@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    transition: 0.3s;
+    /*transform: scale(1.1);*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.wrap {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0px 0px 0px 0px);
+}
+
+.header {
+    background-color: #222222;
+    color: #fff;
+    padding: 19px 0;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header__left {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 41px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    column-gap: 33px;
+}
+
+.header__left-logo {
+    text-decoration: none;
+    color: transparent;
+}
+
+.header__left-search, .header__right-menu {
+    background-color: transparent;
+    border: none;
+}
+
+.header__right-profile, .header__right-cart {
+    text-decoration: none;
+    color: transparent;
+}
+
+.promo {
+    background-color: #F1E4E6;
+}
+
+.promo_wrap {
+    min-height: 765px;
+    background-image: url(../img/promo.png);
+    background-repeat: no-repeat;
+    background-position-x: -225px;
+    background-position-y: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.promo_title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 40px;
+    color: #222222;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    margin-right: 90px;
+}
+
+.promo_title-small {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.promo_title-pink {
+    color: #F16D7F;
+}
+
+.content {
+    background-color: #fff;
+    flex-grow: 1;
+}
+
+.offer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+
+.offer__item {
+    background-color: #C4C4C4;
+    width: 360px;
+    height: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer__item-women {
+    background-image: url(../img/for_women.jpg);
+}
+
+.offer__item-men {
+    background-image: url(../img/for_men.jpg);
+}
+
+.offer__item-kids {
+    background-image: url(../img/for_kids.jpg);
+}
+
+.offer__item-accesories {
+    margin-top: 30px;
+    width: 100%;
+    height: 180px;
+    background-image: url(../img/accesories.jpg);
+}
+
+.offer_text_1 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+
+.offer_text_2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F16D7F;
+}
+
+.products_heading {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.products_text {
+    font-weight: 400;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.product_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 48px;
+}
+
+.product_item {
+    width: 360px;
+    background: #F8F8F8;;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.card_info {
+    width: 315px;
+    margin: 25px auto 20px 16px;
+}
+
+.card_info-heading {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+
+.card_info-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;   
+    color: #5D5D5D;
+    margin-bottom: 18px;
+}
+
+.card_info-price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.all_product {
+    display: flex;
+    margin: 0 auto 60px auto;
+    max-width: 211px;
+    padding: 15px 32px;
+    border: 1px  solid #FF6A6A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+}
+
+.all_product:hover {
+    color: #fff;
+    background-color: #F26376;
+}
